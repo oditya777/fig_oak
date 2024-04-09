@@ -468,8 +468,8 @@ const SuccessCard=({image,title,details})=>{
                 <div className='light-fonts weight-400'>{details}</div>
             </div>
         </div>
-    );
-};
+    )
+}
 
 const FAQSection=()=>{
     return(
