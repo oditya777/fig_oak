@@ -14,11 +14,14 @@
 
 .navbar-items-container {
     display: flex;
+    color: #6f42c1;
+    padding-right:5px ;
 }
 
 .navbar-item {
     margin-right: 20px;
     font-size: 18px;
+    padding-bottom: 5px;
 }
 
 .navbar-buttons-container {
@@ -33,6 +36,7 @@
     font-size: 16px;
     background-color: #6f42c1;
     color: #fff;
+    margin-right: 10px;
 }
 
 .purple-background {
@@ -76,6 +80,7 @@
         display: none;
         flex-direction: column;
         width: 100%;
+        
     }
 
     .navbar-buttons-container {
@@ -88,6 +93,7 @@
 
     .open .navbar-items-container {
         display: flex;
+        
     }
 
     .open .navbar-toggle .bar {
