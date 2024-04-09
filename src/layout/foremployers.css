@@ -776,3 +776,44 @@ color: #6A6A6A;
 .padding-12{
     padding: 12px;
 }
+
+
+/* successStoriesSection.css */
+
+.section-container {
+    padding: 20px;
+}
+
+.download-section-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .flex-row {
+        justify-content: center;
+    }
+
+    .margin-top-60 {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flex-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
